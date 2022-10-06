@@ -1,0 +1,174 @@
+@font-face {
+  font-family: Lato;
+  src: url('../fonts/Lato-Black.ttf'), 
+       url('../fonts/Lato-Light.ttf'),
+       url('../fonts/Lato-Thin.ttf'),
+  
+  ;
+}
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #000000;
+  padding: 1rem;
+  
+}
+
+/* Estilos Escritorio */
+@media all and (min-width: 701px) {
+
+  /* Oculta botón de abrir o cerrar */
+  .nav__button,
+  .header__button-nav--open {
+    display: none;
+  }
+
+  /* Adapta el nav en horizontal */
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: white; 
+  }
+
+  .nav__link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s; 
+    
+  }
+
+  .nav__link:hover {
+    opacity: 0.5;
+  }
+
+.fila{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+  background-color: skyblue;
+}
+.columna{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  height: 80%;
+  background-color: blueviolet;
+  margin: 1%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilos móvil/celular */
+@media all and (max-width: 700px) {
+
+  /* Oculta el nav en la parte izquiera */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(42, 42, 42);
+    transform: translateX(-100vw);
+    transition: 0.5s;
+    color: white;
+  }
+
+  /* Muestra el nav */
+  .nav--show {
+    transform: translateX(0);
+  }
+
+  .nav__button {
+    text-align: right;
+    margin: 1rem;
+   
+  }
+  
+  .nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+     
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .header__button-nav--open{
+    background-color: rgb(115, 115, 115);
+    border-radius: 8px;
+    color: white;
+  }
+  .header__button-nav--close{
+    background-color: rgb(115, 115, 115);
+    border-radius: 8px;
+    color: white;
+  }
+
+
+
+
+  .fila{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    background-color: skyblue;
+  }
+  .columna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    width: 48%;
+    height: 80%;
+    background-color: blueviolet;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}

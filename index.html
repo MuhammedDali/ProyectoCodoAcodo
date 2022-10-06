@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    
+   
+
+
+</head>
+
+
+
+<body>
+ 
+ 
+  <!-- Barra superior -->
+  <header x-data="{ open: false }" class="header">
+    <!-- Logo -->
+    <div class="header__logo">
+      <img src="img/logo.svg" alt="">
+    </div>
+    <!-- Boton abrir -->
+    <button class="header__button-nav--open" x-on:click="open = true">Menu</button>
+    <!-- Navegador -->
+    <nav class="nav" x-bind:class="open ? 'nav--show' : ''">
+      <!-- Boton cerrar -->
+      <div class="nav__button" x-on:click="open = false">
+        <button class="header__button-nav--close">Cerrar</button>
+      </div>
+      <!-- Menu -->
+      <ul class="nav__ul">
+        <li class="nav__item"><a href="#" class="nav__link">Inicio</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Artistas</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Informacion</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Suscribirse</a></li>
+      </ul>
+    </nav>
+    <!-- Fin Navegador -->
+  </header>
+  <!-- Fin Header -->
+  <!-- Barra superior -->
+
+<!--Aca van 2 columnas una imagen y a la derecha texto con cta-->
+<div class="fila">
+  <div class="columna">HOLA</div>
+  <div class="columna">HOLA</div>
+</div>
+<!--Aca van 2 columnas una imagen y a la derecha texto con cta-->
+
+
+
+
+
+
+<footer class="footer">
+
+  
+</footer>
+<script src="js/formulario.js"></script>
+
+
+</body>
+</html>
