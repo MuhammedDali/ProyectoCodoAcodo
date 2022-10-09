@@ -1,2 +1,2 @@
 # ProyectoCodoAcodo
-# Pagina web responsive 
+# Por ahora estoy haciendo el home, ya tiene menu hamburguesa responsivo
