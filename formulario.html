@@ -7,44 +7,63 @@
     <link rel="STYLESHEET" href="/css/estilos.css">
     <title>Formulario</title>
 </head>
-<body>
+<h1>Formularios</h1>
 
-    <h1>FORMULARIO</h1>
-    <H3>Gracias por contestar</H3>
     <form>
-        Nombre<input type="text" name="nombre">
+        <label for="fname">Nombre:</label><br>
+        <input size="20" type="text" id="fname" name="fname" placeholder="nombre"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+        <input type="submit" value="Submit">
         <br>
+        <label for="">Temas que quiero aprender:</label><br><br>
         <br>
-        Apellido<input type="text" name="apellido">
-        <br>
-        <br>
-        Mail<input type="text" name="mail">
-        <br>
-        <br>
-        Sugerencia
-        <br>
-        <textarea name="sugerencia" rows="10" cols="40"></textarea> 
-        <br>
-        <br>
-        <select name="estilo musical"> 
-            <option>Rock Internacional</option> 
-            <option>Rock Nacional</option> 
-            <option>Folclore</option> 
-            <option>Urbano</option>
-            <option>Latino</option>
-            <option>Tango</option>
-            <option>No me gusta la musica</option>
-            <option>NS/NC</option>
-        </select>
-        <br>
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Suscribirse"> 
-        <br>
-        <br>
-        <input type="Reset" value="Borrar todo">
+        HTML<input type="checkbox" name="HTML" id="">
+        CSS<input type="checkbox" name="HTML" id="">
+        JAVASCRIPT<input type="checkbox" name="HTML" id="">
 
-    </form>
-</body>
+        <br>
+        <label for="">Turno que queres elegir:</label><br><br>
+        <br>
+        Mañana<input type="radio" name="HTML" id="">
+        Tarde<input type="radio" name="HTML" id="">
+        Noche<input type="radio" name="HTML" id="">
+
+        <br>
+        <label for="">Turno que queres elegir:</label><br><br>
+        <br>
+        <select name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+        </select>
+
+
+        <br><br><br>
+        <label for="">Ingrese su fecha de nacimiento</label><br>
+        <input type="date" name="" id="">
+
+        <br>
+        <label for="">Ingrese sus comentarios:</label>
+        <br>
+        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
+
+
+        <br><br><br>
+        <fieldset>
+        <legend>Login</legend>
+        <label for="">Nombre de usuario:</label><br>
+        <input type="text">
+        <br><br><br>
+        <label for="">Contraseña:</label><br>
+        <input type="password" maxlength="8"><br><br>    
+        <input type="submit" value="Enviar">
+        <input type="Reset" value="Borrar">
+        
+
+
+         </fieldset>
+
+
+      </form> 
 </html>
