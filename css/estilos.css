@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: rgb(77, 76, 76);
+  background-color: rgb(0, 0, 0);
 }
 
 .header {
@@ -151,7 +151,7 @@ background-color: black;
 .central{
   width: 100%;
   height: 100px;
-  background-color: #393939;
+  background-color: #000000;
   color: white;
   display: flex;
   align-items: center;
@@ -256,7 +256,7 @@ overflow: hidden;
 
 .card_content {
 padding: 1rem;
-background: linear-gradient(to bottom left, #38303141 40%, #1a2632 100%);
+background: linear-gradient(to bottom left, #0e0036f2 40%, #0a101508 100%);
 }
 
 .card_title {
@@ -296,17 +296,21 @@ justify-content: center;
 align-items: center;
 color: white;
 font-family: MyLatoLight;
-font-size: 22px;
+font-size: 19px;
 text-align: center;
 }
  
  .footer_seccion{  
 width: 33%;
 height: 100%;
-margin: 4px;
-background-color: rgb(0, 0, 0);
+ 
+background-color: rgb(74,77,163,64);
 justify-content: left;
 text-align: left;
+ background-color: rgb(50, 47, 57);
+ 
+
+ 
  
  
  } 
@@ -329,6 +333,7 @@ text-align: left;
 }
 .redes{
   width: 70%;
+
 }
 
 
@@ -486,6 +491,62 @@ width: 64px;
 
 
 
+/*footer*/ 
+ 
+.footer{
+  width: 100%;
+  height: 200px;
+  margin-top: 256px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: MyLatoLight;
+  font-size: 19px;
+  text-align: center;
+  }
+   
+   .footer_seccion{  
+  width: 33%;
+  height: 100%;
+   
+  background-color: rgb(74,77,163,64);
+  justify-content: left;
+  text-align: left;
+   background-color: rgb(50, 47, 57);
+   
+  
+   
+   
+   
+   } 
+  
+  
+   .footer_titulos{
+    font-size: 16px;
+  
+  }
+  .footer_icon{
+    width: 24%;
+    margin: 2px;
+  }
+  
+  .lista{
+    font-size: 14px;
+    list-style:none;
+    font-family: MyLato;
+    
+  }
+  .redes{
+    width: 60%;
+  
+  }
+  
+  
+  
+  
+  /*footer*/
 
 
 
@@ -603,7 +664,7 @@ width: 64px;
     width: 100%;
     height: 700px;
     margin-top: 100px; 
-    background-color: rgb(69, 160, 74);
+    background-color: rgb(0, 0, 0);
     }
     .columna{
     display: flex;
@@ -689,6 +750,66 @@ width: 64px;
     
    
     
+
+
+/*footer*/ 
+ 
+.footer{
+  width: 100%;
+  height: 200px;
+  margin-top: 256px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: MyLatoLight;
+  font-size: 19px;
+  text-align: center;
+  }
+   
+   .footer_seccion{  
+  width: 33%;
+  height: 70%;
+   
+  background-color: rgb(74,77,163,64);
+  justify-content: left;
+  text-align: left;
+   background-color: rgb(50, 47, 57);
+   
+  
+   
+   
+   
+   } 
+  
+  
+   .footer_titulos{
+    font-size: 14px;
+  
+  }
+  .footer_icon{
+    width: 24%;
+    margin: 2px;
+  }
+  
+  .lista{
+    font-size: 12px;
+    list-style:none;
+    font-family: MyLato;
+    
+  }
+  .redes{
+    width: 60%;
+  
+  }
+  
+  
+  
+  
+  /*footer*/
+
+
     
     
 
