@@ -9,6 +9,7 @@
 
 body{
   background-color: rgb(0, 0, 0);
+  
 }
 
 .header {
@@ -23,7 +24,7 @@ body{
   padding: 1rem;
   font-family: MyLato;
 }
-
+ 
 /*=========================Escritorio=========================*/
 /*MAS DE 700 PX PASA A DESKTOP*/
  
@@ -39,7 +40,7 @@ body{
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0);
-  width: 80%;
+  width: 100%;
 
 }
 .formulario{
@@ -48,7 +49,7 @@ body{
 margin-top: 100px;
 
   height: 400px;
-  width: 50%;
+  width: 40%;
   
   }
   
@@ -57,7 +58,7 @@ margin-top: 100px;
   
   .form{
     border-radius: 8px;
-  background-color: rgba(17, 104, 151, 0.4);
+  background-color: rgba(27, 107, 161, 0.62);
   width: 70%;
  
  
@@ -87,7 +88,7 @@ margin-top: 100px;
   color: white;
   
   position: absolute;
-  margin-top: -110px;
+  margin-top: -120px;
   
   }
   
@@ -95,13 +96,15 @@ margin-top: 100px;
   .formsubmit{
   margin-left: 25%;
   width: 50%;
-  background-color: rgb(35, 68, 128);
+  background-color: rgb(47, 90, 169);
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 8px;
+  border-color: rgb(153, 169, 185);
   box-shadow: rgb(114, 114, 192);
   font-size: 15px;
   margin-top: 75px;
+  color: white;
   }
   
   
@@ -121,9 +124,47 @@ margin-top: 100px;
 
 /*Formulario*/
 
+/*Saludo*/
+#saludo{
+  width: 256px;
+  height: 128px;
+  background-color: #ffffff;
+  border-radius: 8px;
+
+
+ 
+    padding-top: 4px;
+    text-align: center;
+    width: 30%;
+    height: 128px;
+    display: none;
+   background-color: white;
+    z-index: 2;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 10px;
+    margin-left: 35%;
+    box-shadow: rgb(0, 0, 0);
+}
+.b2{
+    color: white;
+    background-color: rgb(35, 68, 128);
+    border-radius: 8px;
+  }
+  
 
 
 
+
+
+
+
+
+
+  
+  
+}
+/**/
 
 
 
@@ -225,6 +266,7 @@ background-color: black;
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-top: 32px;
+  
 /* CSS */
 }
 
@@ -244,7 +286,7 @@ background-color: black;
   fill: rgb(65, 118, 197);
 }
 
-}
+
 
 
 
@@ -481,96 +523,6 @@ text-align: left;
 
 
 
-/*Formulario*/
-.contenedor_formulario{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(185, 107, 107);
-  
-
-}
-.formulario{
- 
-
-margin-top: 100px;
-
-  height: 400px;
-  width: 80%;
-  
-  }
-  
-  
-  
-  
-  .form{
-    border-radius: 8px;
-  background-color: rgba(17, 104, 151, 0.4);
-  width: 70%;
- 
- 
-  padding: 20px;
-  box-shadow: 10 10 20px 1px rgba(0,0,0,0.3);
-  position: relative;
-    
-  }
-  
-  .formimput, .formlabel .formsubmit{
-  display: block;
-  width: 90%;
-  font-size: 20px;
-  margin-bottom: 40px;
-  
- 
-  }
-  
-  .formimput{
-  
-  padding: 15px;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 8px;
-  
-  }
-  .formlabel{
-  color: white;
-  
-  position: absolute;
-  margin-top: -110px;
-  
-  }
-  
-  
-  .formsubmit{
-  margin-left: 25%;
-  width: 50%;
-  background-color: rgb(35, 68, 128);
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: rgb(114, 114, 192);
-  font-size: 15px;
-  margin-top: 75px;
-  }
-  
-  
-  .lista{
-    width: 80%;
- 
-  
-    position: absolute;
-    padding-bottom: 20px; 
-    border-radius: 8px;
-
-  }
-
-
-
-
-
-/*Formulario*/
-
-
-
 
 
 
@@ -802,92 +754,6 @@ width: 40px;
 
 
   
-/*Formulario*/
-.contenedor_formulario{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-}
-.formulario{
- 
-
-margin-top: 100px;
-
-  height: 400px;
-  width: 90%;
-  
-  }
-  
-  
-  
-  
-  .form{
-    border-radius: 8px;
-  background-color: rgba(17, 104, 151, 0.4);
-  width: 70%;
- 
- 
-  padding: 20px;
-  box-shadow: 10 10 20px 1px rgba(0,0,0,0.3);
-  position: relative;
-    
-  }
-  
-  .formimput, .formlabel .formsubmit{
-  display: block;
-  width: 90%;
-  font-size: 20px;
-  margin-bottom: 40px;
-  
- 
-  }
-  
-  .formimput{
-  
-  padding: 15px;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 8px;
-  
-  }
-  .formlabel{
-  color: white;
-  
-  position: absolute;
-  margin-top: -110px;
-  
-  }
-  
-  
-  .formsubmit{
-  margin-left: 25%;
-  width: 50%;
-  background-color: rgb(35, 68, 128);
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 8px;
-  box-shadow: rgb(114, 114, 192);
-  font-size: 15px;
-  margin-top: 75px;
-  }
-  
-  
-  .lista{
-    width: 80%;
- 
-  
-    position: absolute;
-    padding-bottom: 20px; 
-    border-radius: 8px;
-
-  }
-
-
-
-
-
-/*Formulario*/
 
 
 
