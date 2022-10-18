@@ -144,12 +144,14 @@ margin-top: 100px;
     font-family: Roboto;
     border-radius: 10px;
     margin-left: 35%;
+    margin-top: 256px;
     box-shadow: rgb(0, 0, 0);
 }
 .b2{
     color: white;
     background-color: rgb(35, 68, 128);
     border-radius: 8px;
+    cursor: pointer;
   }
   
 
