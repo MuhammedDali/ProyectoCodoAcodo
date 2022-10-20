@@ -1,0 +1,22 @@
+html {
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    background: rgb(179, 176, 176);
+    background: linear-gradient(90deg, rgb(24, 24, 24) 23%, rgb(179, 179, 179) 100%); 
+
+}
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(20, 22, 21);
+}
+
+
