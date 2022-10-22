@@ -7,8 +7,8 @@ html {
 body{
 
     height: 100%;
-    background: rgb(220.9,226.4,221.7);
-    background: linear-gradient(95deg, rgb(110, 116, 111) 23%, rgb(125, 188, 188) 100%); 
+    background: rgb(112, 161, 161);
+    background: linear-gradient(135deg, rgb(123, 157, 157) 23%, rgb(76, 98, 98) 100%); 
 
 }
 
@@ -17,16 +17,18 @@ div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-indent: 5ex;
     color: rgb(24, 24, 24)
-
-    
     
 }
-
-
 
 
 
 h1{
     font-size: x-large;
     color: rgb(20, 22, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.dialogo {
+    font-style: oblique;
 }

@@ -14,7 +14,6 @@ body{
 div{
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-indent: 5ex;
     color: rgb(24, 24, 24)
     
     
@@ -26,3 +25,7 @@ h1{
 }
 
 
+p{
+    text-indent: 5ex;
+
+}

@@ -6,12 +6,12 @@ html {
 body{
 
     height: 100%;
-    background: rgb(55, 67, 67);
-    background: linear-gradient(135deg, rgb(55, 67, 67) 23%, rgb(25, 31, 31) 100%); 
+    background: rgb(152, 17, 34);
+    background: linear-gradient(135deg, rgb(152, 24, 41) 23%, rgb(75, 3, 12) 100%); 
 
 }
 
-
+        
 
 h1{
     font-size: x-large;
