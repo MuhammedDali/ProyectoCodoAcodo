@@ -8,10 +8,9 @@
 }
 
 body{
-  background-color: rgb(77, 76, 76);
+  background-color: rgb(0, 0, 0);
+  
 }
-
-
 
 .header {
   display: flex;
@@ -25,10 +24,155 @@ body{
   padding: 1rem;
   font-family: MyLato;
 }
+ 
+/*=========================Escritorio=========================*/
+/*MAS DE 700 PX PASA A DESKTOP*/
+ 
 
-/* Estilos Escritorio */
-@media all and (min-width: 701px) {
+@media   (min-width: 699px) {
 
+
+
+
+/*Formulario*/
+.contenedor_formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+
+}
+.formulario{
+ 
+
+margin-top: 100px;
+
+  height: 400px;
+  width: 40%;
+  
+  }
+  
+  
+  
+  
+  .form{
+    border-radius: 8px;
+  background-color: rgba(27, 107, 161, 0.62);
+  width: 70%;
+ 
+ 
+  padding: 20px;
+  box-shadow: 10 10 20px 1px rgba(0,0,0,0.3);
+  position: relative;
+    
+  }
+  
+  .formimput, .formlabel .formsubmit{
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  margin-bottom: 40px;
+  
+ 
+  }
+  
+  .formimput{
+  
+  padding: 15px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 8px;
+  
+  }
+  .formlabel{
+  color: white;
+  
+  position: absolute;
+  margin-top: -120px;
+  
+  }
+  
+  
+  .formsubmit{
+  margin-left: 25%;
+  width: 50%;
+  background-color: rgb(47, 90, 169);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: rgb(153, 169, 185);
+  box-shadow: rgb(114, 114, 192);
+  font-size: 15px;
+  margin-top: 75px;
+  color: white;
+  }
+  
+  
+  .lista{
+    width: 80%;
+ 
+  
+    position: absolute;
+    padding-bottom: 20px; 
+    border-radius: 8px;
+
+  }
+
+
+
+
+
+/*Formulario*/
+
+/*Saludo*/
+#saludo{
+  width: 256px;
+  height: 128px;
+  background-color: #ffffff;
+  border-radius: 8px;
+
+
+ 
+    padding-top: 4px;
+    text-align: center;
+    width: 30%;
+    height: 128px;
+    display: none;
+   background-color: white;
+    z-index: 2;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 256px;
+    box-shadow: rgb(0, 0, 0);
+}
+.b2{
+    color: white;
+    background-color: rgb(35, 68, 128);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+  
+}
+/**/
+
+
+
+  .cards_item {
+    width: 33.3333%;
+  }
   /* Oculta botón de abrir o cerrar */
   .nav__button,
   .header__button-nav--open {
@@ -100,16 +244,16 @@ background-color: black;
 .cta{
   border-radius: 8px;
   align-items: center;
-  background-color: rgb(200, 200, 200);
-  border: 2px solid #000;
+  background-color: rgb(55, 114, 196);
+  border: 2px solid rgb(142, 137, 137);
   box-sizing: border-box;
-  color: rgb(42, 42, 42);
+  color: rgb(249, 248, 248);
   cursor: pointer;
   display: inline-flex;
   fill: rgb(0, 0, 0);
   font-family: Inter,sans-serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 300;
   height: 48px;
   justify-content: center;
   letter-spacing: -.8px;
@@ -124,17 +268,18 @@ background-color: black;
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-top: 32px;
+  
 /* CSS */
 }
 
 .cta:focus {
-  color: #0a2c63;
+  color: rgb(212, 213, 216);
 }
 
 .cta:hover {
   border-color: rgb(97, 97, 97);
-  color: rgb(42, 56, 78);
-  fill:rgb(41, 57, 81);
+  color: rgb(168, 175, 186);
+  fill:rgb(123, 168, 235);
 }
 
 .cta:active {
@@ -143,14 +288,459 @@ background-color: black;
   fill: rgb(65, 118, 197);
 }
 
+
+
+
+
+.central{
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+/*Flechita saltarin*/
+.central_img{
+  width: 64px;
+  animation: bounce 1s linear infinite ;
+  
+}
+@keyframes bounce{
+  20%, 50%, 80%, to{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-30px);
+  }
+70% {
+  transform: translateY(-15px);
+}
+90%{
+  transform: translateY(-4px);
+}
+
+
+}
+
+
+/*Flechita saltarin*/
+
+/*Comienzan las cards*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+ 
+ 
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+}
+
+.btn {
+color: #ffffff;
+padding: 0.8rem;
+font-size: 14px;
+text-transform: uppercase;
+border-radius: 4px;
+font-weight: 400;
+display: block;
+width: 100%;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.2);
+background: transparent;
+}
+
+.btn:hover {
+background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+display: flex;/*
+
+list-style: none;*/
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+}
+
+.cards_item {
+display: flex;
+padding: 1rem;
+}
+/*Se acomodan de a 2 filas
+@media (min-width: 640px) {
+.cards_item {
+  width: 50%;}
+
+
+
+
+
+
+
+
+
+}
+*/
+
+
+
+/*se acomodan de a 3 filas*/
+@media (min-width: 800px) {
+
 }
 
 
 
 
-/*Escritorio*/
+.card {
+background-color: rgb(252, 252, 252);
+border-radius: 0.25rem;
+box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+
+.card_content {
+padding: 1rem;
+background: linear-gradient(to bottom left, #0e0036f2 40%, #0a101508 100%);
+}
+
+.card_title {
+color: #ffffff;
+font-size: 1.1rem;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: capitalize;
+margin: 0px;
+}
+
+.card_text {
+color: #ffffff;
+font-size: 0.875rem;
+line-height: 1.5;
+margin-bottom: 1.25rem;    
+font-weight: 400;
+}
+.made_by{
+font-weight: 400;
+font-size: 13px;
+margin-top: 35px;
+text-align: center;
+}
+/*Fin de las cards*/
  
 
+/*footer*/ 
+ 
+.footer{
+width: 100%;
+height: 200px;
+margin-top: 256px;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(31, 28, 28);
+font-family: MyLatoLight;
+font-size: 19px;
+text-align: center;
+
+}
+ 
+ .footer_seccion{  
+width: 33%;
+height: 100%;
+ 
+ 
+justify-content: left;
+text-align: left;
+ background-color: rgb(250, 250, 250);
+ text-decoration: none;
+ 
+ 
+  
+ 
+ } 
+
+
+ .footer_titulos{
+  font-size: 20px;
+
+}
+.footer_icon{
+  width: 10%;
+  margin: 8px;
+}
+
+.lista{
+  font-size: 16px;
+  list-style:none;
+  font-family: MyLato;
+ 
+
+
+  
+}
+.redes{
+  width: 70%;
+
+}
+
+
+
+
+/*footer*/
+/*=========================Escritorio=========================*/
+ 
+
+/*=========================Tablet=============================*/
+
+@media (max-width: 698px) and (min-width: 500px)
+
+ 
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cards_item {
+    width: 50%;}
+
+
+/* Oculta botón de abrir o cerrar */
+.nav__button,
+.header__button-nav--open {
+  display: none;
+}
+
+/* Adapta el nav en horizontal */
+.nav__ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  color: white; 
+}
+
+.nav__link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s; 
+  
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}
+
+.fila{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 400px;
+margin-top: 100px; 
+background-color: rgb(0, 0, 0);
+}
+.columna{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 48%;
+height: 80%;
+background-color: rgb(0, 0, 0);
+margin: 1%;
+flex-direction: column;
+
+}
+
+
+.imagenPortada{
+width:70%;
+
+}
+.textoPortada{
+color: white;
+font-family: MyLatoLight;
+font-size: 20px;
+text-align: center;
+}
+
+.divSuscribir{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 128px;
+background-color: black;
+
+}
+.cta{
+border-radius: 8px;
+align-items: center;
+background-color: rgb(55, 114, 196);
+border: 2px solid rgb(142, 137, 137);
+box-sizing: border-box;
+color: rgb(42, 42, 42);
+cursor: pointer;
+display: inline-flex;
+fill: rgb(0, 0, 0);
+font-family: Inter,sans-serif;
+font-size: 14px;
+font-weight: 600;
+height: 32px;
+justify-content: center;
+letter-spacing: -.8px;
+line-height: 24px;
+min-width: 110px;
+outline: 0;
+padding: 0 17px;
+text-align: center;
+text-decoration: none;
+transition: all .3s;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+margin-top: 32px;
+/* CSS */
+}
+
+.cta:focus {
+color: #0a2c63;
+}
+
+.cta:hover {
+border-color: rgb(97, 97, 97);
+color: rgb(42, 56, 78);
+fill:rgb(41, 57, 81);
+}
+
+.cta:active {
+  border-color: rgb(97, 97, 97);
+  color: rgb(168, 175, 186);
+  fill:rgb(123, 168, 235);
+}
+
+
+
+
+
+.central{
+width: 100%;
+height: 100px;
+background-color: #000000;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.central_img{
+width: 40px;
+
+}
+
+
+
+
+
+
+/*footer*/ 
+ 
+.footer{
+  width: 100%;
+  height: 200px;
+  margin-top: 256px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(31, 28, 28);
+  font-family: MyLatoLight;
+  font-size: 19px;
+  text-align: center;
+  }
+   
+   .footer_seccion{  
+  width: 33%;
+  height: 100%;
+   
+
+  justify-content: left;
+  text-align: left;
+  background-color: rgb(250, 250, 250);
+   
+  
+   
+   
+   
+   } 
+  
+  
+   .footer_titulos{
+    font-size: 16px;
+  
+  }
+  .footer_icon{
+    width: 24%;
+    margin: 2px;
+  }
+  
+  .lista{
+    font-size: 14px;
+    list-style:none;
+    font-family: MyLato;
+    
+  }
+  .redes{
+    width: 60%;
+  
+  }
+  
+  
+  
+  
+  /*footer*/
+
+
+
+
+
+  /**/  
+}
 
 
 
@@ -161,7 +751,25 @@ background-color: black;
 
 
 /* Estilos móvil/celular */
-@media all and (max-width: 700px) {
+@media  (max-width: 499px) {
+
+
+
+  
+
+
+
+  .cards_item {
+    width: 100%;}
+
+
+  
+.textoPortada{
+  color: white;
+  font-family: MyLatoLight;
+  font-size: 12px;
+  text-align: center;
+}
 
   /* Oculta el nav en la parte izquiera */
   .nav {
@@ -223,7 +831,7 @@ background-color: black;
     justify-content: center;
     width: 100%;
     height: 450px;
-    background-color: skyblue;
+    background-color: rgb(135, 235, 168);
     margin-top: 64px;
   }
   .columna{
@@ -239,6 +847,197 @@ background-color: black;
 
 
  
+
+  .fila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px; 
+    background-color: rgb(0, 0, 0);
+    }
+    .columna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 1%;
+    flex-direction: column;
+    
+    }
+    
+    
+    .imagenPortada{
+    width:70%;
+    
+    }
+    .textoPortada{
+    width: 70%;
+    color: white;
+    font-family: MyLatoLight;
+    font-size: 16px;
+    text-align: center;
+    }
+    
+    .divSuscribir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+    background-color: black;
+    
+    }
+    .cta{
+    border-radius: 8px;
+    align-items: center;
+    background-color: rgb(55, 114, 196);
+    border: 2px solid rgb(142, 137, 137);
+    box-sizing: border-box;
+    color: rgb(42, 42, 42);
+    cursor: pointer;
+    display: inline-flex;
+    fill: rgb(0, 0, 0);
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 110px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 32px;
+    /* CSS */
+    }
+    
+    .cta:focus {
+    color: #0a2c63;
+    }
+    
+    .cta:hover {
+      border-color: rgb(97, 97, 97);
+      color: rgb(42, 56, 78);
+      fill:rgb(41, 57, 81);
+    }
+    
+    .cta:active {
+      border-color: rgb(97, 97, 97);
+      color: rgb(168, 175, 186);
+      fill:rgb(123, 168, 235);
+    }
+    
+    
+    
+.central_img{
+  width: 30px;
+   
+}
+    
+   
+    
+
+
+/*footer*/ 
+ 
+.footer{
+  width: 100%;
+  height: 200px;
+  margin-top: 256px;
+  color: rgb(31, 28, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: MyLatoLight;
+  font-size: 19px;
+  text-align: center;
+  }
+   
+   .footer_seccion{  
+  width: 33%;
+  height: 70%;
+   
+  
+  justify-content: left;
+  text-align: left;
+ background-color: rgb(250, 250, 250);
+   
+  
+   
+   
+   
+   } 
+  
+  
+   .footer_titulos{
+    font-size: 14px;
+  
+  }
+  .footer_icon{
+    width: 24%;
+    margin: 2px;
+  }
+  
+  .lista{
+    font-size: 12px;
+    list-style:none;
+    font-family: MyLato;
+    
+  }
+  .redes{
+    width: 60%;
+  
+  }
+  
+  
+  
+  
+  /*footer*/
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
