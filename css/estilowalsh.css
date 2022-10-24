@@ -1,0 +1,48 @@
+html {
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    background: rgb(69, 12, 19);
+    background: linear-gradient(135deg, rgb(96, 33, 39) 23%, rgb(60, 11, 16) 100%); 
+
+}
+
+div{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(225, 218, 218)
+    
+    
+}
+
+h1{
+    font-size: x-large;
+    color: rgb(225, 218, 218);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+div, image  { margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+
+footer {
+    position: relative; 
+    top: 25px; 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px;
+    
+}
+
+

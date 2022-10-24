@@ -1,0 +1,38 @@
+html {
+
+    height: 100%;
+}
+
+body{
+
+    height: 100%;
+    background: rgb(152, 17, 34);
+    background: linear-gradient(135deg, rgb(152, 24, 41) 23%, rgb(75, 3, 12) 100%); 
+
+}
+
+        
+
+h1{
+    font-size: x-large;
+    color: rgb(222, 228, 225);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+iframe, image  { margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+
+footer {
+    position: relative; 
+    top: 25px; 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px;
+    
+}
