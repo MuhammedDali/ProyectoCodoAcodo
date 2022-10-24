@@ -9,7 +9,7 @@ body{
     height: 100%;
     background: rgb(112, 161, 161);
     background: linear-gradient(135deg, rgb(123, 157, 157) 23%, rgb(76, 98, 98) 100%); 
-
+   
 }
 
 div{
@@ -17,6 +17,7 @@ div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-indent: 5ex;
     color: rgb(24, 24, 24)
+
     
 }
 
@@ -31,4 +32,32 @@ h1{
 
 .dialogo {
     font-style: oblique;
+}
+
+footer {
+        margin-top: 30px;
+    
+}
+
+main{
+
+    margin-bottom: 70px;
+}
+
+iframe { margin: auto;
+padding: auto;}
+
+
+image { margin: auto;
+ 
+}
+
+footer{
+    position: relative; 
+    top: 25px; 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px;
+    
 }

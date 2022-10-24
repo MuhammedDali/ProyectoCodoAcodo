@@ -11,13 +11,28 @@ body{
 
 }
 
+iframe, image  { margin-top: 50px;
+    margin-bottom: 30px;
 
+}
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     font-size: x-large;
     color: rgb(20, 22, 21);
-}
+ 
+       }
 
+
+
+footer {
+    position: relative; 
+    top: 25px; 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px;
+    
+}
 

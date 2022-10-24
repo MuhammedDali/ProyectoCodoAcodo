@@ -23,3 +23,21 @@ h1{
 }
 
 
+iframe, image  { margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+
+footer {
+    position: relative; 
+    top: 25px; 
+    float: left; 
+    width: 140px; 
+    height: 50px; 
+    margin: 5px;
+    
+}
+
+
